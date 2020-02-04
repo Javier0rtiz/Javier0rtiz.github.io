@@ -17,12 +17,19 @@
     font-family: "Lato", sans-serif;
   }
 
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+
   body,
   html {
     height: 100%;
     color: #777;
     line-height: 1.8;
     align-content: center;
+    margin: 0px;
+    padding: 0px;
   }
 
   /* Create a Parallax Effect */
@@ -61,7 +68,16 @@
     cursor: pointer;
   }
 
+  @media only screen and (max-device-width:1600px){
 
+    .blacksquare{
+      align-content: center;
+      font-size: 40px;
+      padding: 10px;
+      margin: 10px;  
+    }
+
+  }
 
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1600px) { 
